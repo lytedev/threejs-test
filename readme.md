@@ -10,7 +10,7 @@ Holy crap... this is too cool.
 
 ## Build
 
-* Run `yarn run build` and find the compiled project in `dist/`.
+* Run `webpack` (or `yarn run build`) and find the compiled project in `dist/`.
 
 ## Develop w/ Hot Reloading
 
