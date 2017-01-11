@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --content-base dist/ --hot --inline --host=0.0.0.0"
+    "dev": "webpack-dev-server --content-base dist/ --hot --inline",
+    "build": "webpack"
   },
   "license": "MIT",
   "dependencies": {
