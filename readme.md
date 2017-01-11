@@ -1,4 +1,4 @@
-# threejstest
+# threejs-test
 
 > Just a simple test with three.js.
 
