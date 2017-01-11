@@ -18,3 +18,4 @@ Holy crap... this is too cool.
 
 ## To Do
 * Use Babel to compile the JS in webpack
+* Switch to my beloved CoffeeScript?
