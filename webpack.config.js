@@ -1,4 +1,5 @@
 htmlPlugin = require("html-webpack-plugin")
+poststylus = require("poststylus")
 
 htmlPluginConfig = {
   template: "index.pug"
@@ -13,11 +14,16 @@ module.exports = {
   },
   module: {
     loaders: [
-      {
-        test: /\.pug$/,
-        loader: "pug-loader"
-      }
+      { test: /\.pug$/, loader: "pug" },
+      { test: /\.styl$/, loader: "style!css!stylus" }
     ]
   },
-  plugins: [new htmlPlugin(htmlPluginConfig)]
+  plugins: [
+    new htmlPlugin(htmlPluginConfig),
+  ],
+  stylus: {
+    use: [
+      poststylus()
+    ]
+  }
 }
