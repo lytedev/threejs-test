@@ -17,5 +17,6 @@ Holy crap... this is too cool.
 * Run `yarn run dev` and open [http://localhost:8080](http://localhost:8080).
 
 ## To Do
+
 * Use Babel to compile the JS in webpack
 * Switch to my beloved CoffeeScript?
